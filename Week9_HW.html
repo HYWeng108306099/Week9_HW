@@ -1,0 +1,98 @@
+<html>
+<head>
+	<title>Week9_HW</title>
+</head>
+<body>
+<table border = "2" style="width:35%">
+ <thead>
+   <tr>
+     <th colspan ="4">About -- 108306099</th>
+   </tr>
+ </thead>
+ <tbody>
+ 	<tr>
+ 		<td rowspan="4">
+ 		<img src="musk.jpg" width="160" height ="160" alt="Elon Musk"/>
+ 		<br>personal photo</br>
+ 	    </td>
+ 	</tr>
+  	<tr>
+ 		<td colspan ="2">
+ 			<label> Name:
+ 			<input name = "name" type = "text" size = "25" maxlength = "25">
+	        </label>
+ 		<form>
+ 			Gender:
+ 			<input type="radio" name="gender" value="male"> Male
+	        <input type="radio" name="gender" value="female"> Female
+	        <input type="radio" name="gender" value="other"> Other
+        </form>
+ 		</td>
+ 	</tr>
+  	<tr>
+ 		<form action="/action_page.php">
+ 		<td>Country:
+	    <select name="mood">
+	    	<option value="Taipei"> Taipei</option>
+		    <option value="Tainan"> Tainan</option>
+		    <option value="Taichung"> Taichung</option>
+		    <option value="Taoyuan"> Taoyuan</option>
+	    </select>
+        </form>
+        </td>
+ 		<td>Birthday:
+ 		<input type="date" name="birthday">
+ 	    </td>
+ 	</tr>
+  	<tr>
+ 		<td colspan ="2">
+ 			<label> E-mail:
+ 			<input name = "name" type = "text" size = "25" maxlength = "25">
+	        </label>
+	    </td>
+ 	</tr>
+ 	<tr>
+ 		<td rowspan="2">Hobby</td>
+ 	</tr>
+ 	<tr>
+ 		<form action="/action_page.php" method="get">
+ 		<td colspan ="2">
+ 			<input type="checkbox" name="things" value="Swimming"> Swimming
+	        <input type="checkbox" name="things" value="Volleyball"> Volleyball
+	        <input type="checkbox" name="things" value="Movie"> Movie
+	        <input type="checkbox" name="things" value="Game"> Game
+	        <input type="checkbox" name="things" value="Sleep"> Sleep
+	    </td>
+ 	</tr>
+ 	<tr>
+ 		<td rowspan="2">Skill</td>
+ 	</tr>
+ 	<tr>
+ 		<td colspan ="2">
+ 			<form action="/action_page.php" method="get">
+ 			<input type="checkbox" name="things" value="Java"> Java
+	        <input type="checkbox" name="things" value="HTML"> HTML
+	        <input type="checkbox" name="things" value="Python"> Python
+	        <input type="checkbox" name="things" value="Microsoft Office"> Microsoft Office
+	        <input type="checkbox" name="things" value="Premiere"> Premiere
+	    </td>
+ 	</tr>
+ 	<tr>
+ 		<td rowspan="2">Say Something</td>
+ 	</tr>
+ 	<tr>
+ 		<td colspan ="2">
+ 			<textarea placeholder="Say Something" rows="1" cols="25"></textarea></td>
+ 	</tr>
+ 	<tr>
+     <td colspan ="4">
+     	<form method = "post">
+     	<input type = "submit" value="submit">
+        <input type = "reset" value = "reset">
+        </form>
+     </td>
+   </tr>
+ </tbody>
+</table></p>
+</body>
+</html>
